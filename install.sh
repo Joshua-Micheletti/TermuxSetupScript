@@ -2,7 +2,9 @@
 pkg update
 pkg upgrade
 termux-setup-storage
-pkg install wget curl proot tar screen -y
+pkg install wget curl proot tar screen openssh -y
+sshd
+
 mkdir $HOME/ubuntu
 cp ./afterUbuntuSetup.sh $HOME/ubuntu
 cp ./themes $HOME/ubuntu
