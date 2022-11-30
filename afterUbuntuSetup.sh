@@ -13,6 +13,8 @@ sudo apt install curl -y
 sudo apt install htop -y
 sudo apt install neofetch -y
 sudo apt install unzip -y
+sudo apt install chromium-browser -y
+curl -fsSL https://code-server.dev/install.sh | sh
 
 echo "-------------- setting up themes --------------"
 
