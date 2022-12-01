@@ -14,6 +14,9 @@ sudo apt install htop -y
 sudo apt install neofetch -y
 sudo apt install unzip -y
 sudo apt install chromium-browser -y
+sudo apt install mysql-server -y
+sudo apt install python3-pip
+
 curl -fsSL https://code-server.dev/install.sh | sh
 
 echo "-------------- setting up themes --------------"
@@ -30,3 +33,8 @@ xfconf-query -c xsettings -p /Net/IconThemeName -s $icons
 xfconf-query -c xfwm4 -p /general/theme -s $theme
 xfconf-query -c xfwm4 -p /general/move_opacity -s $opacity
 xfconf-query -c xfwm4 -p /general/resize_opacity -s $opacity
+
+echo "------------- setting up directories --------------"
+
+mkdir $HOME/Projects
+mkdir $HOME/University
