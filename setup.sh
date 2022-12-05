@@ -21,3 +21,4 @@ echo "------------- setting up directories --------------"
 
 mkdir $HOME/Projects
 mkdir $HOME/University
+mkdir $HOME/Pictures
